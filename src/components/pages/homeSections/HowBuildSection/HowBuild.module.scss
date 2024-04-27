@@ -1,0 +1,271 @@
+.how_build {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+
+  .how_build_content {
+    display: flex;
+    justify-content: center;
+    margin-left: 87px;
+
+    .how_build_con {
+
+      .how_build_text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .heading {
+          color: #FFF;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 1.5;
+        }
+
+        .subheading {
+          color: #FFF;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          margin-top: 15px;
+        }
+
+        .how_build_structure {
+          display: flex;
+
+          .how_build_headings {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .arrow_right {
+            margin-top: 33px;
+            margin-left: 16px;
+          }
+
+          .text {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-left: 55px;
+          }
+        }
+      }
+    }
+  }
+
+  .card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 91px;
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 115px;
+
+      .card {
+        .card_text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+          ;
+          border: solid rgba(14, 14, 14, 0.944) 15px;
+          max-width: 159px;
+          height: 159px;
+          flex-shrink: 0;
+          border-radius: 100px;
+
+          p {
+            color: #343045;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+
+        .arrow_and_text_structure {
+
+          .arrow_and_text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+              color: #FFF;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin-bottom: -30px;
+              margin-left: -17px;
+            }
+          }
+        }
+      }
+    }
+
+    .wave_img_structure {
+      display: flex;
+      justify-content: center;
+
+      .wave_img {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+
+        img {
+          position: relative;
+          z-index: -1;
+          margin-top: -410px;
+          width: 1480px;
+        }
+      }
+    }
+  }
+
+  .other_how_build_content {
+    display: none;
+  }
+
+  .other_card_content {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+  .how_build {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .how_build_content {
+      display: none;
+    }
+
+    .card_content {
+      display: none;
+    }
+
+    .other_how_build_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .other_how_build_con {
+        .other_how_build_text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .other_how_build_structure {
+            position: relative;
+            top: -90px;
+
+            .other_heading {
+              color: #FFF;
+              text-align: center;
+              font-size: 26px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 2;
+            }
+
+            .other_subheading {
+              color: #FFF;
+              text-align: center;
+              font-size: 26px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+
+    .other_card_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .other_cards {
+        .other_card {
+          .other_card_text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+            ;
+            border: solid rgba(14, 14, 14, 0.944) 15px;
+            width: 160px;
+            height: 159px;
+            flex-shrink: 0;
+            border-radius: 100px;
+            position: relative;
+            top: -50px;
+            right: -80px;
+
+            p {
+              color: #343045;
+              font-size: 64px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+          }
+
+          .other_arrow_and_text_structure {
+            .other_arrow_and_text {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              p {
+                color: #FFF;
+                text-align: center;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+              }
+
+              .left_arrow {
+                background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+                ;
+                padding: 3px;
+                border-radius: 50px;
+                border: solid 10px rgba(14, 14, 14, 0.90);
+                position: relative;
+                right: 10px;
+                position: relative;
+                left: -40px;
+              }
+
+              .arrow_right {
+                background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+                ;
+                padding: 3px;
+                border-radius: 50px;
+                border: solid 10px rgba(14, 14, 14, 0.90);
+                position: relative;
+                right: -10px;
+                position: relative;
+                right: -40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

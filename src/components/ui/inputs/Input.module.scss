@@ -1,0 +1,36 @@
+.input {
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background-color: #00000000;
+  color: #fff;
+  
+  &.input_normal {
+    width: 523px;
+  }
+
+  &.input_long {
+    width: 1058px;
+  }
+
+  &.input_big {
+    width: 1058px;
+    height: 210px;
+  }
+  
+    &.input_big::placeholder {
+      margin-top: 27px;
+    }
+}
+
+.input::placeholder {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 42px;
+}
+
+

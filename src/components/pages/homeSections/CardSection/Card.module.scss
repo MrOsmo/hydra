@@ -1,0 +1,130 @@
+.whybuild {
+  position: relative;
+  top: -35px;
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .card {
+      margin-top: 65px;
+      width: 310px;
+      height: 511px;
+      flex-shrink: 0;
+      border-radius: 40px;
+      background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 17px;
+      flex-direction: column;
+
+      p {
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      h1 {
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      img {
+        border: solid 13px rgba(14, 14, 14, 0.32);
+        border-radius: 155px;
+      }
+    }
+  }
+
+  .other_cards {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+  .whybuild {
+    .cards {
+      display: none;
+    }
+
+    .other_cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .other_card {
+        margin-top: 65px;
+        width: 310px;
+        height: 511px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+        flex-direction: column;
+
+        p {
+          color: #FFF;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        h1 {
+          color: #FFF;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+
+        img {
+          border: solid 13px rgba(14, 14, 14, 0.32);
+          border-radius: 155px;
+        }
+
+        .arrows {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+      
+
+          .arrow_left {
+            background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+            ;
+            padding: 3px;
+            border-radius: 50px;
+            border: solid 10px rgba(14, 14, 14, 0.90);
+            position: relative;
+            top: 90px;
+            right: 10px;
+          }
+
+          .arrow_right {
+            background: linear-gradient(268deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+            ;
+            padding: 3px;
+            border-radius: 50px;
+            border: solid 10px rgba(14, 14, 14, 0.90);
+            position: relative;
+            top: 90px;
+            right: -10px;
+
+          }
+        }
+      }
+    }
+  }
+}

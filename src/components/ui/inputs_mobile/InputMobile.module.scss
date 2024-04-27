@@ -1,0 +1,23 @@
+.input {
+  width: 300px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background-color: #00000000;
+  &.input_big {
+     width: 300px;
+    height: 219px;
+    flex-shrink: 0;;
+  }
+}
+
+
+.input::placeholder {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 42px;
+}
